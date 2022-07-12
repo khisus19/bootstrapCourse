@@ -12,9 +12,9 @@
     width: 80px;
 }
 #main .carousel-inner img {
-    max-height: 70vh;
+    height: 74vh;
     object-fit: cover;
-    filter: grayscale(70%);
+    filter: grayscale(15%);
 }
 #carousel {
     position: relative;
@@ -33,6 +33,21 @@
 #carousel .overlay .row {
     height: 100%;
 }
+.overlay span {
+    font-weight: 800;
+    letter-spacing: 3px;
+    font-size: 1.4em;
+}
+.overlay #yellow-vzl {
+    color: yellow;
+}
+.overlay #blue-vzl {
+    color: blue;
+}
+.overlay #red-vzl {
+    color: red;
+}
+
 #speakers img{
     height: 300px;
     object-fit: cover;
